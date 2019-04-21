@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Joseph Zanini"
+        android:textColor="#000"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/bio"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bio"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:text="@string/bio"
+        android:textColor="#000"
+        app:layout_constraintBottom_toTopOf="@+id/bJJButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/name" />
+
+    <Button
+        android:id="@+id/bJJButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BJJ"
+        android:background="@color/colorPrimary"
+        android:onClick="openBjjActivity"
+        app:layout_constraintBottom_toTopOf="@+id/travelButton"
+        app:layout_constraintEnd_toStartOf="@+id/sportsButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bio" />
+
+    <Button
+        android:id="@+id/sportsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sports"
+        android:background="@color/colorPrimary"
+        android:onClick="openSportsActivity"
+        app:layout_constraintBottom_toTopOf="@+id/exitButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/bJJButton"
+        app:layout_constraintTop_toBottomOf="@+id/bio" />
+
+    <Button
+        android:id="@+id/travelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel"
+        android:background="@color/colorPrimary"
+        android:onClick="openTravelActivity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/exitButton"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bJJButton" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:background="#ff00"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/travelButton"
+        app:layout_constraintTop_toBottomOf="@+id/sportsButton" />
+
+</android.support.constraint.ConstraintLayout>

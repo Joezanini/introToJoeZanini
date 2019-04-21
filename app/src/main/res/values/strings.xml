@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">homework1</string>
+    <string name="bio">I am a 36 year old husband, father,
+        and computer science major at UCSC.my wifes name is Lauren.
+        My son is 4 years old, his name is Matthias.
+        We live in Hayward California. My hobbies include doing
+        Brazilian Jiu-Jitsu, watching live sports, and traveling.
+        Most of the time, I am studying or working as a Care Attendant.
+    </string>
+
+    <string name="bjjDescription">Brazilian Jiu-Jitsu is known among
+        other martial arts as "The Gentle Art" because it is a grappling
+        sport with no striking. Since there is no striking, sparing is
+        done at 100% intensity and mimics live competition very well.
+        essentially a match is over when either someone submits, by
+        tapping out, or the timer runs out and scores are tallied.
+    </string>
+
+    <string name="sportsDescription">I am blessed to live in the East Bay.
+        We have 3 sports teams, The Oakland Athletics, The Oakland Raiders, and
+        the Golden State Warriors. I am a season ticket holder for The Athletics
+        and The Raiders. I go to an away game for The Raiders annually.
+    </string>
+
+    <string name="travelDescription">My family and I do a lot of domestic
+        travel. We have toured the east coast by car, we frequent New Orleans,
+        and try to visit a different American major city every year. We have a
+        lot of fun with this hobby. I often combine this hobby with my sports hobby.
+        I recently traveled with the Raiders to a very cold Philadelphia.
+    </string>
+</resources>
